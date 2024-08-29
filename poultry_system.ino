@@ -9,14 +9,14 @@ LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27, 16, 2);
 #include <addons/TokenHelper.h>
 #include <addons/RTDBHelper.h>
 
-#define WIFI_SSID "riel"
-#define WIFI_PASSWORD "123456789"
+#define WIFI_SSID "" //username 
+#define WIFI_PASSWORD ""  //password
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyByywq2irjnH7yWuu-YVtc56cmZeGzh9PI"
+#define API_KEY "" //API
 //-----------------------------------------------------------------------
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "home-automation-8d66c-default-rtdb.firebaseio.com"
+#define DATABASE_URL "" //Database url
 //-----------------------------------------------------------------------
 
 FirebaseJson jsonData;
